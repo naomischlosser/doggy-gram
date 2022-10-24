@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/index.tsx --bundle --minify --outfile=built/bundle.js --watch",
+    "build": "esbuild src/index.tsx --bundle --minify --outfile=build/bundle.js --watch",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "keywords": [],
