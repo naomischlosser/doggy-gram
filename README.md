@@ -1,5 +1,9 @@
+# DoggyGram
+
+Instagram for your pets!
+
 ## Dependencies
-Before doing anything else, run
+Install the dependencies
 ```
 npm install
 ```
@@ -9,3 +13,8 @@ To bundle, run
 npm run build
 ```
 
+## Formatting
+Run prettier ./src files
+```
+npm run format
+```
