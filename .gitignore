@@ -1,5 +1,8 @@
 # dependencies
-node_modules
+node_modules/
+
+# bundles files
+build/
 
 # misc
 DS_Store
