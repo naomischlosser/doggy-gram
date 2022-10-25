@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
-    "build": "esbuild ./client/src/index.tsx --bundle --minify --outfile=./client/dist/bundle.js --watch",
-    "start": "nodemon ./server/src/index.ts",
-    "dev": "concurrently \"npm run build\" \"npm run start\""
+    "build": "esbuild ./client/src/index.tsx --bundle --minify --outfile=./client/public/dist/bundle.js",
+    "watch": "npm run build -- --watch",
+    "client": "npm run build -- --servedir=./client/public",
+    "server": "nodemon ./server/src/index.ts",
+    "start": "concurrently \"npm run client\" \"npm run server\""
   },
   "repository": {
     "type": "git",
