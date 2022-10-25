@@ -1,0 +1,24 @@
+{
+  "name": "doggy-gram",
+  "version": "1.0.0",
+  "description": "Instagram for your furry companion!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ." 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naomischlosser/doggy-gram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naomischlosser/doggy-gram/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "homepage": "https://github.com/naomischlosser/doggy-gram#readme"
+}
