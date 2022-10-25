@@ -39,7 +39,7 @@ so that integration tests do not interact with the development server.
 
 ## Formatting
 
-Run prettier ./src files
+Run prettier in root directory
 
 ```
 npm run format
