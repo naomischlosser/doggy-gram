@@ -2,7 +2,7 @@
 node_modules/
 
 # bundled files
-build/
+dist/
 
 # misc
 DS_Store
