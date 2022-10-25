@@ -5,6 +5,7 @@ Instagram for your furry companion!
 ## Dependencies
 
 Install the dependencies
+
 ```
 npm install
 ```
@@ -12,6 +13,7 @@ npm install
 ## Client
 
 Bundle and watch by running
+
 ```
 npm run build
 ```
@@ -38,6 +40,7 @@ so that integration tests do not interact with the development server.
 ## Formatting
 
 Run prettier ./src files
+
 ```
 npm run format
 ```

@@ -1,6 +1,6 @@
 # dependencies
 node_modules/
-package-json
+package.json
 package-lock.json
 tsconfig.json
 
