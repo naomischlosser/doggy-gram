@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "esbuild ./client/src/index.tsx --bundle --minify --outfile=./client/dist/bundle.js --watch",
+    "start": "nodemon ./server/src/index.ts",
+    "dev": "concurrently \"npm run build\" \"npm run start\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "devDependencies": {
     "prettier": "^2.7.1"
   },
-  "homepage": "https://github.com/naomischlosser/doggy-gram#readme"
+  "homepage": "https://github.com/naomischlosser/doggy-gram#readme",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "esbuild": "^0.15.12"
+  }
 }
