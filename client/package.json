@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/index.tsx --bundle --minify --outfile=dist/bundle.js --watch",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "build": "esbuild src/index.tsx --bundle --minify --outfile=dist/bundle.js --watch"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,6 @@
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "prettier": "^2.7.1",
     "typescript": "^4.8.4"
   }
 }
