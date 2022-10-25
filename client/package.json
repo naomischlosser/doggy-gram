@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/index.tsx --bundle --minify --outfile=dist/bundle.js --watch"
+    "build": "esbuild ./src/index.tsx --bundle --minify --outfile=./public/dist/bundle.js",
+    "watch": "npm run build -- --watch",
+    "start": "npm run build -- --servedir=./public"
   },
+  "proxy": "http://localhost:3000",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "add": "^2.0.6",
     "esbuild": "^0.15.12",
+    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
