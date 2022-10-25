@@ -1,6 +1,6 @@
 # DoggyGram
 
-Instagram for your pets!
+Instagram for your furry companion!
 
 ## Dependencies
 Install the dependencies
@@ -8,7 +8,7 @@ Install the dependencies
 npm install
 ```
 
-To bundle, run
+When developing the **client**, bundle and watch by running
 ```
 npm run build
 ```
