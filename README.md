@@ -10,21 +10,14 @@ Install the dependencies
 npm install
 ```
 
-## Client
-
-Bundle and watch by running
-
-```
-npm run build
-```
-
 ## Server
 
-1. Start the server
+1. Start the client and server
    ```
    npm start
    ```
-2. Browse to [http://localhost:3000](http://localhost:3000)
+2. Browse to [http://localhost:8000](http://localhost:8000) to visit the client
+3. Browse to [http://localhost:3000](http://localhost:3000) to visit the server
 
 #### Start test server
 
