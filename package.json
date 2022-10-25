@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write .",
-    "build": "esbuild ./client/src/index.tsx --bundle --minify --outfile=./client/public/dist/bundle.js",
+    "build": "esbuild ./client/src/index.tsx --bundle --outfile=./client/public/dist/bundle.js",
     "watch": "npm run build -- --watch",
     "client": "npm run build -- --servedir=./client/public",
     "server": "nodemon ./server/src/index.ts",
